@@ -28,10 +28,12 @@ export default function ProjectsPage() {
         <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-[0.2em] text-zinc-500">
           <span className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-zinc-300">5 LIVE ON VERCEL</span>
+            <span className="text-zinc-300">
+              {projects.filter((p) => p.liveDemoUrl && p.liveDemoUrl.includes("vercel.app")).length} LIVE ON VERCEL
+            </span>
           </span>
           <span className="text-zinc-600">|</span>
-          <span>INDEX: 0{projects.length} SYSTEMS</span>
+          <span>INDEX: {projects.length < 10 ? `0${projects.length}` : projects.length} SYSTEMS</span>
         </div>
       </div>
 

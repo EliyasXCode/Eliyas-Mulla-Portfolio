@@ -259,8 +259,28 @@ export const PORTFOLIO_DATA = {
       date: "2026",
     },
     {
-      id: "ai-voice-assistant",
+      id: "aesthetic-room-portfolio",
       number: "07",
+      title: "Aesthetic 3D Room Experience",
+      subtitle: "Interactive Isometric Corridor & Hand-Crafted WebGL Spatial Canvas",
+      category: "Creative Dev · 3D WebGL & Shaders",
+      technologies: ["React", "Three.js", "React Three Fiber", "GLSL Shaders", "GSAP", "Tailwind CSS", "Vercel"],
+      description:
+        "An artistic creative frontend showcase exploring an interactive hand-drawn isometric room and dimensional corridor without relying on heavy 3D models. Blending tactile pencil-sketch textures, custom GPU fragment shaders, and dynamic camera choreography to turn portfolio browsing into a living spatial art experience.",
+      highlights: [
+        "Constructed an interactive 3D spatial room and corridor leveraging procedural geometry, isometric depth, and React Three Fiber rendering.",
+        "Authored custom GLSL fragment and vertex shaders simulating paper grain, real-time pencil-sketch hatching, and dynamic paint-reveal highlights on mouse movement.",
+        "Orchestrated cinematic camera transitions and interactive room hotspots with GSAP ScrollTrigger and smooth inertia-based spatial exploration.",
+        "Maintained silky 60fps frame rates across desktop and mobile by replacing heavy polygon meshes with lightweight textured geometry and custom GLSL math.",
+      ],
+      githubUrl: "https://github.com/EliyasXCode/Asthetic-portfolio",
+      liveDemoUrl: "https://asthetic-portfolio-three.vercel.app/",
+      accentColor: "#f59e0b",
+      date: "2026",
+    },
+    {
+      id: "ai-voice-assistant",
+      number: "08",
       title: "AI Voice Assistant Web App",
       subtitle: "Low-Latency Conversational Voice Agent",
       category: "Next.js + AI Voice",
@@ -280,7 +300,7 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: "restaurant-booking-system",
-      number: "08",
+      number: "09",
       title: "Restaurant Booking System",
       subtitle: "Django Platform for Real-Time Table Reservations",
       category: "Django + Python + SQL",
